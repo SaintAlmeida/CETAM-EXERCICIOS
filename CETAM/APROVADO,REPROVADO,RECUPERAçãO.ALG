@@ -17,12 +17,12 @@ Inicio
  escreval("Digite a Nota Final do Aluno: ")
  leia(n1)
 se (n1>=6) entao
-    escreval("A Nota Final foi : ",n1," O aluno ",nome," está aprovado")
-                       senao
-                       se ((n1 < 6) e (n1 >= 4)) entao
-                       escreval(" A nota final foi : ",n1," O aluno ",nome," está de recuperação")
-                       senao
-                       escreval("A nota final foi : ",n1, " O aluno ",nome," está reprovado")
-                       fimse
+escreval("A Nota Final foi : ",n1," O aluno ",nome," está aprovado")
+senao
+se ((n1 < 6) e (n1 >= 4)) entao
+escreval(" A nota final foi : ",n1," O aluno ",nome," está de recuperação")
+senao
+escreval("A nota final foi : ",n1, " O aluno ",nome," está reprovado")
+fimse
 fimse
 Fimalgoritmo
